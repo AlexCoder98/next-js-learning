@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Next.js | Learning",
   description: "This is a Next.js App created for learning and test purposes.",
+  alternates: {
+    canonical: "http://localhost:3000/"
+  }
 };
 
 export default function RootLayout({
